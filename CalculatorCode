@@ -8,31 +8,31 @@ public class JavaClass {
         
         int na, nb, op;
         
-        System.out.println("Digite o primeiro numero: ");
+        System.out.println("Type the first number: ");
         na = sc.nextInt();
-        System.out.println("Escolha a operacao a ser feita:"
+        System.out.println("Choose the operation:"
                 + "\n1: +"
                 + "\n2: -"
                 + "\n3: /"
                 + "\n4: *");
         op = sc.nextInt();
-        System.out.println("Digite o segundo numero: ");
+        System.out.println("Type the second number: ");
         nb = sc.nextInt();
         
         if(op == 1){
-            System.out.println("Resultado: " + (na + nb));
+            System.out.println("Result: " + (na + nb));
         }
         if(op == 2){
-            System.out.println("Resultado: " + (na - nb));
+            System.out.println("Result: " + (na - nb));
         }
         if(op == 3){
-            System.out.println("Resultado: " + (na / nb));
+            System.out.println("Result: " + (na / nb));
         }
         if(op == 4){
-            System.out.println("Resultado: " + (na * nb));
+            System.out.println("Result: " + (na * nb));
         }
         if(op > 4){
-            System.out.println("Escolha uma opcao valida!");
+            System.out.println("Choose a valid option!");
         }
     }
 }
