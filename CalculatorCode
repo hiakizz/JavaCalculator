@@ -1,8 +1,8 @@
-package PackageName;
+package javapackage;
 
 import java.util.Scanner;
 
-public class ClassName {
+public class JavaClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
